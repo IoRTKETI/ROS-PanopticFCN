@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="panopticFCN" type="image_pub.py" name="PanopticFCN_image" />
+    <node pkg="panopticFCN" type="pano_main.py" name="PanopticFCN_node" output="screen"/>
+</launch>
