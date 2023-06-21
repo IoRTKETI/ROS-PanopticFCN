@@ -35,14 +35,14 @@ cd ~/{your ros workspace PATH} && catkin_make
 
 If you want publishing only panoptic info (not publishing panoptic Image).
 ``` shell
-# ./panopticFCN/scripts/pano_main.py
+# ./scripts/pano_main.py
 # line 86
 self.visualization_Flag = False
 ```
 
 If your subscribed topic is different.
 ``` shell
-# ./panopticFCN/scripts/pano_main.py
+# ./scripts/pano_main.py
 # line 83
 subscribing_image_topic = '{your subscribed topic}'
 ```
@@ -69,13 +69,13 @@ rosrun panopticFCN image_pub.py
 
 ## Use custom data
 
-**Add weight file :** ./yolov7/scripts/model/custom file.pth
+**Add weight file :** ./scripts/model/custom file.pth
 
-**Add yaml file :** ./yolov7/config/custom file.yaml
+**Add yaml file :** ./config/custom file.yaml
 
 **Change yaml file path in python file :**
 ``` shell
-# ./panopticFCN/scripts/pano_main.py
+# ./scripts/pano_main.py
 # line 79
 yaml_file = 'custom file.yaml'
 ```
