@@ -52,6 +52,11 @@ subscribing_image_topic = '{your subscribed topic}'
 
 ## test
 ``` shell
+# .config/cityscapes/PanopticFCN-R50-400-3x-FAST_hm.yaml
+# line 3
+WEIGHTS:  "{ros_path}/panopticFCN/scripts/model/model_final_FAST.pth"
+```
+``` shell
 # use roslaunch
 roslaunch panopticFCN pano_test.launch
 
