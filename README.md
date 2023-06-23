@@ -65,8 +65,10 @@ roslaunch panopticFCN pano_test.launch
 # use rosrun
 roscore
 
+# When subscribed to ros image, publish after prediction using panopticFCN
 rosrun panopticFCN pano_main.py
 
+# Publish images repeatedly
 rosrun panopticFCN image_pub.py
 ```
 
