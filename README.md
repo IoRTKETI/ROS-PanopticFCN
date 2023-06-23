@@ -60,7 +60,7 @@ WEIGHTS:  "{ros_path}/panopticFCN/scripts/model/model_final_FAST.pth"
 # use roslaunch
 roslaunch panopticFCN pano_test.launch
 
-or
+# or
 
 # use rosrun
 roscore
