@@ -23,6 +23,10 @@ panoptic visualization Image (sensor_msgs/Image)
 We tested in
 **ROS noetic**.
 
+**Download** weights file
+https://drive.google.com/file/d/1tCVe8BAOzy7qOUdem9MSi8fPG5ObmG3x/view
+
+
 ``` shell
 # clone to the ros catkin workspace
 git clone https://github.com/IoRTKETI/ROS-PanopticFCN.git
