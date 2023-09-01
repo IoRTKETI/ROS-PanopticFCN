@@ -34,8 +34,6 @@ def setup_cfg(cfg_path, confidence_threshold):
     # load config from file and command-line arguments
     cfg = get_cfg()
     # To use demo for Panoptic-DeepLab, please uncomment the following two lines.
-    # from detectron2.projects.panoptic_deeplab import add_panoptic_deeplab_config  # noqa
-    # add_panoptic_deeplab_config(cfg)
     add_panopticfcn_config(cfg) #HM    
 
 
@@ -79,8 +77,7 @@ class PanopticFCNdetection:
         yaml_file = 'PanopticFCN-R50-400-3x-FAST_hm.yaml'
 
         # subscribe image topic
-        #subscribing_image_topic = '/video_source/raw'
-        subscribing_image_topic = '/camera/color/image_raw'
+        subscribing_image_topic = '/video_source/raw'
         
 
         # publish visualization pano image
