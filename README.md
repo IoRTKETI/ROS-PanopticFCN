@@ -24,7 +24,7 @@ We tested in
 **ROS noetic**.
 
 **Download** weights file
-https://drive.google.com/file/d/1tCVe8BAOzy7qOUdem9MSi8fPG5ObmG3x/view
+https://drive.google.com/file/d/1Nkl6wgi1-8Vq58f2XiewzyFuSVPd1ygW/view?usp=drive_link
 
 
 ``` shell
