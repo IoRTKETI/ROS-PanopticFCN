@@ -82,15 +82,3 @@ rosrun panopticFCN image_pub.py
 
 
 
-## Use custom data
-
-**Add weight file :** ./scripts/model/custom file.pth
-
-**Add yaml file :** ./config/custom file.yaml
-
-**Change yaml file path in python file :**
-``` shell
-# ./scripts/pano_main.py
-# line 79
-yaml_file = 'custom file.yaml'
-```
