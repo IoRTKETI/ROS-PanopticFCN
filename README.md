@@ -3,6 +3,12 @@
 This is a ROS package developed for **PanopticFCN in ROS topic images**. It's based on PanopticFCN with detectron2 and you can also use custom models if you want. The available weights are **pth files**.
 
 
+<div align="center">
+    <a href="./">
+        <img src="./scripts/test_result/1image_rect_color18_leftImg8bit.jpg" width="59%"/>
+    </a>
+</div>
+
 
 **Subscribe topic (type):**
 
