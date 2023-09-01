@@ -240,7 +240,7 @@ def _create_text_labels(classes, scores, class_names, is_crowd=None):
     """
     labels = None
     if classes is not None:
-        class_test = ["road", "sidewalk", "building", "wall", "fence", "pole", "traffic light", "traffic sign", "vegetation", "terrain", "sky", "person", "rider", "car", "truck", "bus", "train", "motorcycle", "bicycle", "huge truck", "gas storage", "hazard storage"] #HM	
+        class_test = ["unlabeled", "road", "sidewalk", "building", "wall", "fence", "pole", "traffic sign", "vegetation", "terrain", "sky", "person", "car", "truck", "huge truck", "gas storage", "hazard storage"]	
         if class_names is not None and len(class_test) > 0: #HM	
             labels = [class_test[i] for i in classes] #HM
         #if class_names is not None and len(class_names) > 0: #original	
