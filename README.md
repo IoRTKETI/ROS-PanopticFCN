@@ -2,6 +2,8 @@
 
 This is a ROS package developed for **PanopticFCN in ROS topic images**. It's based on PanopticFCN with detectron2 and you can also use custom models if you want. The available weights are **pth files**.
 
+**This branch customed by nepes factory dataset**
+
 
 <div align="center">
     <a href="./">
